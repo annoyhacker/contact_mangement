@@ -2,7 +2,7 @@ class Config:
     SECRET_KEY = 'Tjd1fB1cQATaY9m2WAwfFxMuCHeCzw1PQ464wFO_i40'
     
     # Updated with full hostname, port, and SSL
-    DATABASE_URL = 'postgresql://root:z59AS7H0sJJmytOuccSxP3YV4vFIevjO@dpg-cvnqa3buibrs73ac7lgg-a.oregon-postgres.render.com:5432/contact_db_asda?sslmode=require'
+    DATABASE_URL = 'postgresql://root:4kZbymLdxzHN4LrP33ePnN3u9ebe9iQq@dpg-d0ip5l3e5dus739r78e0-a.oregon-postgres.render.com/test_contactdb'
     
     SQLALCHEMY_DATABASE_URI = DATABASE_URL
     SQLALCHEMY_TRACK_MODIFICATIONS = False
